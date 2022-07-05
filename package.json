@@ -1,0 +1,114 @@
+{
+  "name": "dante3",
+  "description": "a tiptap prosemirror dante wysiwyg",
+  "author": "Miguel Michelson",
+  "license": "MIT",
+  "version": "1.0.9",
+  "main": "package/Dante.cjs.js",
+  "jsnext:main": "package/Dante.es.js",
+  "module": "package/Dante.es.js",
+  "browser": "package/umd/Dante.js",
+  "files": [
+    "package/umd",
+    "package/lib",
+    "package/build",
+    "package/dist",
+    "package/es",
+    "package/esm"
+  ],
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@tiptap/core": "2.0.0-beta.125",
+    "@tiptap/extension-code-block-lowlight": "2.0.0-beta.47",
+    "@tiptap/extension-collaboration": "2.0.0-beta.33",
+    "@tiptap/extension-collaboration-cursor": "2.0.0-beta.34",
+    "@tiptap/extension-focus": "2.0.0-beta.40",
+    "@tiptap/extension-image": "2.0.0-beta.27",
+    "@tiptap/extension-link": "2.0.0-beta.36",
+    "@tiptap/extension-task-item": "2.0.0-beta.21",
+    "@tiptap/extension-task-list": "2.0.0-beta.17",
+    "@tiptap/extension-text-style": "2.0.0-beta.23",
+    "@tiptap/react": "2.0.0-beta.108",
+    "@tiptap/starter-kit": "2.0.0-beta.183",
+    "@types/prosemirror-commands": "1.0.4",
+    "@types/prosemirror-history": "1.0.3",
+    "@types/prosemirror-keymap": "1.0.4",
+    "@types/prosemirror-schema-basic": "1.0.2",
+    "@types/prosemirror-view": "1.19.0",
+    "axios": "^0.21.1",
+    "lowlight": "1.20.0",
+    "medium-zoom": "^1.0.6",
+    "polished": "^4.1.2",
+    "react": "^17.0.2",
+    "react-colorful": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "react-json-view": "^1.21.3",
+    "react-medium-image-zoom": "^3.1.3",
+    "use-countdown-timer": "^1.3.1",
+    "use-prosemirror": "^1.2.1",
+    "web-vitals": "^1.0.1",
+    "y-webrtc": "^10.1.8",
+    "yjs": "^13.5.6"
+  },
+  "resolutions": {
+    "prosemirror-model": "^1.14.3",
+    "prosemirror-view": "^1.19.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "prettier --write .",
+    "deploy": "node build.js",
+    "build": "NODE_ENV=production rollup -c",
+    "dev-rollup": "rollup -c -w",
+    "up": "yarn upgrade-interactive --latest"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@open-wc/building-rollup": "^1.10.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/node": "^15.6.0",
+    "@types/react": "^17.0.6",
+    "cypress": "^7.3.0",
+    "deepmerge": "^4.2.2",
+    "prettier": "2.3.0",
+    "react-scripts": "4.0.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.48.0",
+    "rollup-plugin-babel": "^4.0.0-beta.8",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-resolve": "^0.0.1-predev.1",
+    "rollup-plugin-ts-paths-resolve": "^1.4.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.4"
+  }
+}
