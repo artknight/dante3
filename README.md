@@ -1,12 +1,13 @@
-**Dante 3 - This is it!**
-=========================
+# Dante 3 - This is it! 🔥
 
 **Just another medium clone built on top of ProseMirror's / TipTap**
 --------------------------------------------------------------------
 
-> Dante3 is a ProseMirror port of [Dante2 (Draftjs) ](https://github.com/michelson/Dante/tree/master/packages/dante2). This version is built on top of [TipTap's Prosemirror](https://www.tiptap.dev/) and reaches all Dante2's features with a shiny ultra mega super uber maintainable architecture.
+> Dante3 is a port from [Dante2 (Draftjs) ](https://github.com/michelson/Dante/tree/master/packages/dante2). This version is built on top of [TipTap](https://www.tiptap.dev/) and reaches all Dante2's features with a shiny ultra mega super uber maintainable architecture.
 
-See the demo at: [dante-editor.dev](https://dante.vercel.com/)
+https://user-images.githubusercontent.com/11976/120087165-bb5c4f00-c0b3-11eb-9002-97c480f3725a.mp4
+
+See the demo at: [dante-editor.dev](https://dante-editor.dev)
 
 **Why rewrite a new version of Dante?**
 ---------------------------------------
@@ -19,13 +20,9 @@ The previous version (Dante2) was made on DraftJs, that's a facebook library to 
 
 -   Not created for realtime collab.
 
-**sfpoksdf**
+**My bet, TipTap**
 
-**sdsdokdaspok**
-
-**My bet, ProseMirror/TipTap**
-
-After shopping many editors libraries, I mean after tried to implement Dante on almost all of them **(Trix, Editorjs, Quilljs, Slate, Prosemirror)** I've choosen Prosemirror's **TipTap** library., I guess all editors libraries have their own flaws but after review it all TipTap is the best of it's class, very well designed/architectured, and I love the community around their ecosystem. So that's it.
+After shopping many editors libraries, I mean after tried to implement Dante on almost all of them **(Trix, Editorjs, Quilljs, Slate, Prosemirror)** I've **TipTap** library (which is based on Prosemirror)., I guess all editors libraries have their own flaws but after review it all TipTap is the best of it's class, very well designed/architectured, and I love the community around their ecosystem. So that's it.
 
 **Features:**
 
@@ -77,7 +74,7 @@ Component Based
 
 Many configuration options and plugin usage can be found on the documentation page:
 
-See [dante-editor.dev](https://dante.vercel.com/)
+See [dante-editor.dev](https://dante-editor.dev)
 
 **Development**
 ---------------
@@ -103,7 +100,7 @@ See [dante-editor.dev](https://dante.vercel.com/)
 **Status**
 ----------
 
-> Dante3 is on beta, actively maintained, with all the features that Dante2 has. As is relying in Prosemirror/TipTap this has better browser support and mobile support. Also has realtime collab capabilities.
+> Dante3 is on beta, actively maintained, with all the features that Dante2 has. As is relying on TipTap (which is based on Prosemirror) which has a better browser support and mobile support. Also has realtime collab capabilities.
 
 **Monorepo**
 ------------
